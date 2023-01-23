@@ -29,7 +29,7 @@ const Main = ({ }) => {
                 </div>
                 <SearchBar onSearch={handleSearch} />
             </header>
-            <div className="body">
+            <div className="details">
                 <WeatherMap selectedWeatherData={selectedWeatherData} />
             </div>
         </>
