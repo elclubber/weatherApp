@@ -17,7 +17,6 @@ const appSlice = createSlice({
             state.city = action.payload;
         },
         setWeatherData(state, action: PayloadAction<object>) {
-            console.log(action.payload)
             state.weatherData = action.payload;
         }
     },

@@ -1,16 +1,4 @@
-interface WeatherData {
-    name: string,
-    main: {
-        temp: number,
-        feels_like: number,
-    },
-    wind: {
-        speed: number
-    },
-    weather: [{
-        icon: string
-    }]
-}
+import WeatherData from '../../utils/types';
 
 interface WeatherMapProps {
     selectedWeatherData: WeatherData | undefined;

@@ -1,5 +1,8 @@
 .weather-map {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .map {
@@ -24,26 +27,36 @@
 
 .location-info {
     padding: 20px;
-    width: 50%;
     text-align: center;
 }
 
 .current-weather {
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
 }
 
-.icon img {
-    width: 100px;
-    height: 100px;
+.icon {
+    background: #20c788;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .temperature,
 .feels-like,
 .wind {
-    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 30px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .loading {
-    font-size: 4rem;
-    vertical-align: center;
+    font-size: 1.5rem;
+    padding: 40px 0;
+    font-weight: 600;
 }

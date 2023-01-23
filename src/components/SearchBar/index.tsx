@@ -26,7 +26,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
 
   // 👇️ type event as React.KeyboardEvent<HTMLElement>
   const onKeyDownSearch = (event: React.KeyboardEvent<HTMLElement>) => {
-    console.log(event.key);
     if (event.key === 'enter') {
       handleSearch(searchStr);
     }
@@ -43,9 +42,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
           onChange={onChangeSearch}
           onKeyDown={onKeyDownSearch}
         />
-        <button type="submit">
-          <i className="fa fa-search"></i>
-        </button>
       </div>
     </form>
   );
