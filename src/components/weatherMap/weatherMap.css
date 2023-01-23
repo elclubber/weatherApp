@@ -1,0 +1,44 @@
+.weather-map {
+    display: flex;
+}
+
+.map {
+    position: relative;
+    width: 50%;
+}
+
+.map img {
+    width: 100%;
+}
+
+.location-marker {
+    position: absolute;
+    left: calc(2.3488% - 10px);
+    top: calc(48.8534% - 20px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: red;
+    transform: translate(-50%, -50%);
+}
+
+.location-info {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.current-weather {
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature,
+.feels-like,
+.wind {
+    margin: 10px 0;
+}
