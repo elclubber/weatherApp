@@ -42,3 +42,8 @@
 .wind {
     margin: 10px 0;
 }
+
+.loading {
+    font-size: 4rem;
+    vertical-align: center;
+}
